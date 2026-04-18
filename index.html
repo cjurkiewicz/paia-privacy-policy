@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Paia Privacy Policy</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --bg: #f6f3ea;
+            --surface: #fffdf8;
+            --text: #1f2933;
+            --muted: #52606d;
+            --accent: #9f4c27;
+            --border: #e6dccb;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Georgia, "Times New Roman", serif;
+            background:
+                radial-gradient(circle at top, rgba(159, 76, 39, 0.1), transparent 32%),
+                linear-gradient(180deg, #f3ecdf 0%, var(--bg) 100%);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        main {
+            max-width: 820px;
+            margin: 0 auto;
+            padding: 48px 20px 80px;
+        }
+
+        article {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 40px 28px;
+            box-shadow: 0 18px 40px rgba(31, 41, 51, 0.08);
+        }
+
+        h1, h2 {
+            font-weight: 600;
+            line-height: 1.2;
+            margin: 0 0 16px;
+        }
+
+        h1 {
+            font-size: clamp(2.2rem, 4vw, 3.4rem);
+            letter-spacing: -0.03em;
+        }
+
+        h2 {
+            margin-top: 32px;
+            font-size: 1.25rem;
+            color: var(--accent);
+        }
+
+        p, li {
+            font-size: 1.02rem;
+        }
+
+        .lede {
+            color: var(--muted);
+            font-size: 1.08rem;
+            margin-bottom: 24px;
+        }
+
+        .meta {
+            color: var(--muted);
+            margin-bottom: 28px;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        a {
+            color: var(--accent);
+        }
+
+        .callout {
+            border-left: 4px solid var(--accent);
+            padding: 12px 16px;
+            background: rgba(159, 76, 39, 0.06);
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <article>
+            <h1>Paia Privacy Policy</h1>
+            <p class="meta"><strong>Effective date:</strong> April 18, 2026</p>
+            <p class="lede">Paia is designed as a local-first AI assistant. Core AI responses, document storage, and chat history are intended to remain on your device rather than being stored on app-owned servers.</p>
+
+            <h2>Information We Access</h2>
+            <p>Paia may access the following information or device capabilities to provide app features:</p>
+            <ul>
+                <li>Microphone access for voice conversations.</li>
+                <li>Speech recognition access for converting spoken words into text.</li>
+                <li>Face ID or Touch ID for unlocking the app.</li>
+                <li>Documents or text that you choose to import into the app for your personal knowledge base.</li>
+                <li>Text that you enter in chats, notes, and profile fields inside the app.</li>
+            </ul>
+
+            <h2>How Information Is Stored</h2>
+            <ul>
+                <li>Chat history is stored locally on your device.</li>
+                <li>Imported documents and extracted knowledge data are stored locally on your device.</li>
+                <li>Your PIN is stored securely in the iOS Keychain.</li>
+                <li>User preferences, such as profile information and app settings, are stored locally on your device.</li>
+            </ul>
+
+            <h2>How Information Is Used</h2>
+            <p>Information accessed by Paia is used only to provide app functionality, including:</p>
+            <ul>
+                <li>Generating AI responses on device.</li>
+                <li>Searching your imported documents to answer questions in Personal Mode.</li>
+                <li>Supporting voice input and voice output features.</li>
+                <li>Protecting access to the app using biometrics and a PIN.</li>
+            </ul>
+
+            <h2>Data Collection and Sharing</h2>
+            <p>Paia does not use app-owned cloud storage or analytics services to collect your personal content. The app does not use advertising SDKs and does not track you across apps or websites.</p>
+            <div class="callout">
+                <p><strong>Model download:</strong> On first use, Paia downloads an AI model file from a third-party hosting provider so the model can run locally on your device. This download does not send your chat content or imported documents to the developer.</p>
+            </div>
+            <p>If you use voice input, speech recognition is configured to run on device when supported by the device and language configuration.</p>
+
+            <h2>Third-Party Services</h2>
+            <p>Paia may connect to a third-party file host only to download the AI model required for local inference. At the time of writing, that host is Hugging Face. Use of that download service may be subject to the third party’s own privacy practices.</p>
+
+            <h2>Data Retention and Control</h2>
+            <p>Because data is stored locally on your device, you can remove it by deleting content within the app or uninstalling the app. Removing the app from your device will remove app container data stored by Paia, subject to iOS behavior and any device backup settings you have enabled.</p>
+
+            <h2>Children's Privacy</h2>
+            <p>Paia is not directed to children under 13, and the app is not intended for use by children without parental supervision.</p>
+
+            <h2>Changes to This Policy</h2>
+            <p>This Privacy Policy may be updated from time to time. If the policy changes, the updated version will be posted at the same URL with a revised effective date.</p>
+
+            <h2>Contact</h2>
+            <p>For privacy questions, contact: <a href="mailto:cjurkiewicz@gmail.com">cjurkiewicz@gmail.com</a></p>
+        </article>
+    </main>
+</body>
+</html>
