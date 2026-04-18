@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Paia Support</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --bg: #f6f3ea;
+            --surface: #fffdf8;
+            --text: #1f2933;
+            --muted: #52606d;
+            --accent: #9f4c27;
+            --border: #e6dccb;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Georgia, "Times New Roman", serif;
+            background:
+                radial-gradient(circle at top, rgba(159, 76, 39, 0.1), transparent 32%),
+                linear-gradient(180deg, #f3ecdf 0%, var(--bg) 100%);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        main {
+            max-width: 820px;
+            margin: 0 auto;
+            padding: 48px 20px 80px;
+        }
+
+        article {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 40px 28px;
+            box-shadow: 0 18px 40px rgba(31, 41, 51, 0.08);
+        }
+
+        h1, h2 {
+            font-weight: 600;
+            line-height: 1.2;
+            margin: 0 0 16px;
+        }
+
+        h1 {
+            font-size: clamp(2.2rem, 4vw, 3.4rem);
+            letter-spacing: -0.03em;
+        }
+
+        h2 {
+            margin-top: 32px;
+            font-size: 1.25rem;
+            color: var(--accent);
+        }
+
+        p, li {
+            font-size: 1.02rem;
+        }
+
+        .lede {
+            color: var(--muted);
+            font-size: 1.08rem;
+            margin-bottom: 24px;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        a {
+            color: var(--accent);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <article>
+            <h1>Paia Support</h1>
+            <p class="lede">Support information for the Paia iOS app.</p>
+
+            <h2>Contact</h2>
+            <p>For help with Paia, contact: <a href="mailto:cjurkiewicz@gmail.com">cjurkiewicz@gmail.com</a></p>
+
+            <h2>Common Questions</h2>
+            <ul>
+                <li>Paia requires a one-time on-device model download before chat is available.</li>
+                <li>After the model download completes, core chat and personal document retrieval run locally on device.</li>
+                <li>If voice input is unavailable, the current device or language may not support on-device speech recognition. Text chat will still work.</li>
+                <li>Imported documents and chat history are stored locally in the app container on the device.</li>
+            </ul>
+
+            <h2>Troubleshooting</h2>
+            <ul>
+                <li>If the model download fails, check network connectivity and try again.</li>
+                <li>If responses are slow or unstable, use a device with sufficient available memory.</li>
+                <li>If voice mode is unavailable, continue with text input instead.</li>
+            </ul>
+
+            <h2>Privacy</h2>
+            <p>Read the <a href="/paia-privacy-policy/">Paia Privacy Policy</a>.</p>
+        </article>
+    </main>
+</body>
+</html>
